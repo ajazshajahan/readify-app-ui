@@ -1,0 +1,86 @@
+.auth-form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 90vh;
+  color: white;
+  background-image: url("D:\194339-enldoqbzzm-1695462492.jpg"); /* Ensure this path is correct */
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.heads {
+  padding: 30px;
+  font-size:  45px;
+  font-style: italic;
+  color: gold;
+  text-decoration: underline;
+}
+
+.loglab{
+  font-size:  25px;
+  font-style: italic;
+  color: white; 
+  padding: 20px;
+  text-align: left;
+}
+
+.loginp {
+
+  height: 5vh;
+  width: 24vW;
+  padding: 6px;
+  border: 5px solid #08ab36;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+  font-size: 25px;
+
+}
+
+input:focus {
+  border-color: #73808f; 
+  outline: none; 
+}
+
+.logbut {
+ 
+  border-radius: 10px;
+  border: 5px solid #a7d41d;
+  border: none;
+  font-weight: bold;
+  font-size: 26px;
+  height: 6.5vh;
+  width: 14vW;
+  cursor: pointer;
+
+  
+
+
+}
+
+
+button:hover {
+  background-color: rgb(188, 141, 141); /* Darker blue on hover */
+}
+
+.link-bt {
+  text-align: center; /* Center the link */
+  margin-top: 10px;
+  font-size: 25px; 
+  
+}
+
+.link-btn a {
+  font-size:x-large;
+  background: none;
+  color: gold;
+  text-decoration: underline;
+  margin-top: 1rem;
+}
+
+.link-btn a:hover {
+  text-decoration: underline; 
+}

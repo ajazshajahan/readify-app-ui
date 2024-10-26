@@ -1,0 +1,39 @@
+
+
+.homePage{
+
+    background-image: url("D:\homepage2.jpg");
+    background-size:cover;
+    background-position: center;
+    height: 100vh;
+   
+   
+  }
+  
+  .homePage .quote{
+    position: absolute;
+    left: 20px;
+    top: 150px;
+    font-size: 31px;
+    width: 350px;
+    padding: 20px;
+  
+  
+  
+  }
+  .homePage .quote .homeP{
+    color: white;
+  }
+  
+   .homePage .quote .author{
+    margin-top: 10px;
+    font-size: 25px;
+    text-align: right;
+    color: gold;
+  
+  }
+  
+  
+  
+  
+  

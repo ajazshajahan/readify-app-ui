@@ -1,0 +1,73 @@
+.books-containe {
+    height: 250vh;
+    padding: 20px;
+    background-color: rgb(69, 11, 69);
+  }
+  
+  .bookh {
+    text-align: left;
+
+    color: gold;
+    margin-bottom: 20px;
+    text-decoration: underline;
+    font-style: italic;
+    font-size:40px;
+  }
+  .seachb {
+     height: 10vh;
+  width: 22vW;
+  padding: 10px; 
+   
+    
+  }
+  .inpsrch{
+
+    background-color: beige;
+    margin: 19px 0; 
+    border-radius: 4px;
+    font-size: 26px;
+  
+    border: 2px 
+    
+    
+  }
+  
+  .books-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
+    gap: 20px;
+  }
+  
+  .book-card {
+    background-color: black;
+    padding: 20px;
+    border: 1px solid #bfbdce;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .book-title {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: white;
+    font-style: oblique
+    
+  }
+  
+  .book-author,
+  .book-genre,
+  .book-public ,
+  .book-visited{
+    color: yellow;
+    font-size: large;
+    margin: 5px 0;
+    text-align: left;
+    
+  }
+  
+  .book-card:hover {
+    background-color:rgb(83, 128, 128);
+  }
+  

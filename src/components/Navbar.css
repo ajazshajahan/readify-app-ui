@@ -1,0 +1,63 @@
+
+.head{
+    color:darkblue;
+    padding: 12px;
+}
+.active{
+    
+
+  color: brown; 
+
+}
+nav{
+    display:flex;
+    justify-content:left;
+    align-items: baseline;
+    background-color:lemonchiffon;
+    background-size:cover;
+    height: 6vh;
+    width: auto;
+    
+    
+    
+}
+
+.nav2{
+    
+    padding: 12px;
+    justify-content:right;
+    align-items: center;
+    border-bottom: 100rem;    
+    
+}
+
+nav ul{
+    display: flex;
+}
+nav ul li{
+    font-size: large;
+    list-style: none;
+    font-style: italic;
+}
+nav ul li a {
+
+    font-size: 1.3rem;
+    display:block;
+    text-decoration: none;
+    color: black;
+    padding: 0.2rem;
+    margin: 0 0.5rem;
+    border-radius: 0.5rem;
+
+
+}
+nav ul li a:not(.active):hover{
+  
+    color: brown;
+}
+
+.logtbtn{
+ 
+    
+    font-size: x-large;
+}

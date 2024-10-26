@@ -1,0 +1,82 @@
+.book-management-container {
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: left;
+  min-height: 90vh;
+  
+ 
+  background-size: cover;
+  background-color: rgb(97, 7, 57);
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  text-decoration:underline;
+  font-size: 45px;
+  font-style: italic;
+  text-align: left;
+}
+
+
+
+label {
+  font-weight: bold;
+  font-size:x-large;
+  margin-bottom: 5px;
+  display: block;
+  color:yellow;
+  text-align: left;
+}
+
+input[type="text"],
+input[type="file"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: x-large;
+}
+
+input[type="checkbox"] {
+  margin-left: 10px;
+}
+
+.checkbox-group {
+  display: flex;
+  align-items: center;
+}
+
+.submit-btn {
+  background-color: #28a745;
+  font-size: x-large;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+  background-color: #218838;
+}
+
+.bkmgbn{
+  border-radius: 4%;
+  font-weight: bold;
+  font-size: large;
+  height: 5vh;
+  width: 16vW;
+}
+.chbx{
+  
+  height: 3vh;
+  width: 8vw;
+  display: flex;
+  align-items: flex-start;
+
+}

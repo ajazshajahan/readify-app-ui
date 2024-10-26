@@ -1,0 +1,84 @@
+.register-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 90vh;
+  color: white;
+  background-image: url("D:/register10.jpg"); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.regsterheadin{
+  font-size: 45px ;
+  font-style: italic;
+  color: gold;
+  text-decoration: underline;
+}
+.regful{
+  font-size:  25px;
+  font-style: italic;
+  color: white; 
+  padding: 20px;
+  text-align: left;
+}
+
+
+.reglab {
+  font-size:  25px;
+  font-style: italic;
+  color: white; 
+  padding: 20px;
+  text-align: left;
+  
+
+  
+}
+
+.reginp {
+  
+  height: 5vh;
+  width: 24vW;
+ 
+  
+  
+}
+
+.regin{
+
+  padding: 6px;
+
+
+  font-size: 25px;
+  
+}
+
+.reginpu {
+ 
+  height: 3.8vh;
+  width: 24vW;
+  padding: 6px;
+
+  font-size: 25px;
+}
+
+.registerbutton {
+  border-radius: 10px;
+  border: 5px solid #a7d41d;
+  border: none;
+  font-weight: bold;
+  font-size: 26px;
+  height: 6.5vh;
+  width: 14vW;
+  cursor: pointer;
+}
+
+.login-link {
+  font-size: 22px;
+  background: none;
+  color: gold;
+  text-decoration: underline;
+  margin-top: 1rem; /* Space above link */
+}

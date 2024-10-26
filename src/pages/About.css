@@ -1,0 +1,53 @@
+
+.about-container {
+    background-size:cover;
+    background-position: center;
+    height: 110vh;
+    background-image: url("D:\Peacock-Blue.jpg");
+    max-width: 2000px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    
+  }
+  
+  .abouth1 {
+    font-size: 3rem;
+    color: gold;
+    margin-bottom: 20px;
+  }
+  .abouth2 {
+    text-align: left;
+    font-size: 1.8rem;
+    color:gold;
+    margin-bottom: 10px;
+  }
+  
+  .aboutp {
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+    text-align: justify;
+    color: white;
+  }
+  
+  ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    color:white;
+  }
+  
+  ul li {
+    margin-bottom: 10px;
+    font-size: 1.6rem;
+  }
+  
+  a {
+    color: gold;
+    text-decoration:underline;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
